@@ -89,7 +89,7 @@ goto installwinkex
 
 
 :installwinkex
-echo at install win
+echo Installing win-kex
 wsl -d kali-linux sudo apt update; sudo apt upgrade -y; sudo apt install -y kali-win-kex
 goto SEND
 
